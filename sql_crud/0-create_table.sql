@@ -1,10 +1,9 @@
-CREATE TABLE books
-(
+CREATE TABLE books (
     id INTEGER PRIMARY KEY,
     title TEXT NOT NULL,
     author TEXT NOT NULL,
     genre TEXT,
-    price INTEGER,
+    price REAL,
     stock INTEGER,
-    published_year TEXT,
+    published_year INTEGER
 );
