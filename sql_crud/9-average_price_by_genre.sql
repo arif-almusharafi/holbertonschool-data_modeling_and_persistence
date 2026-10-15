@@ -1,3 +1,3 @@
-SELECT price, genre, AVG(price)
+SELECT genre, AVG(price)
 FROM books
 GROUP BY genre;
